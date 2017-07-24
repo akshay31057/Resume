@@ -1,0 +1,129 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[top=0.75in, bottom=0.75in, left=0.50in, right=0.75in]{geometry}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[colorlinks=true, urlcolor=blue, urlbordercolor={0 1 1}]{hyperref}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\lsep}{-0.5cm}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage} \hspace{0.2cm}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+
+\indent \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\multirow{3}{*}{\huge\textsc{\textbf{Akshay Sharma}}}	& \textbf{Email:} \href{mailto:akshay31057@gmail.com}{akshay31057@gmail.com}				\\
+							& \textbf{Website:} \href{https://github.com/akshay31057/?tab=repositories}{github.com/akshay31057/}	\\
+							& \textbf{Phone:} +91 7599008882, +91 9837200235
+\end{tabular*}
+\vskip .5cm
+\resheading{\textbf{ACADEMIC DETAILS}}\\[\lsep]
+\vskip .5cm
+\indent \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cccc}
+\hline
+\textbf{Year}	&	\textbf{Degree / Certificate}			&	\textbf{University / School}	&	\textbf{CPI / \%}	\\
+\hline
+2019 (Expected)	 &	B. Tech (Computer Science \& Engineering)	&	MNNIT, Allahabad			&	9.42 / 10 (Upto $4^{th}$sem)		\\[0.15cm]
+2015		&	Class XII (CBSE)				&	K.C.M. School, Moradabad&	97 \%		\\[0.15cm]
+2013		&	Class X (CBSE)					&	K.C.M. School, Moradabad&	10/10		\\
+\hline
+\end{tabular*}
+\vskip .5cm
+\indent \resheading{\textbf{FIELDS OF INTEREST}}\\[\lsep]
+\vskip .5cm
+\indent \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lll}
+  Reasoning & Algorithms\\
+\end{tabular*}
+\vskip .5cm
+\indent \resheading{\textbf{INTERNSHIPS \& WORKSHOPS}}\\[\lsep]
+\vskip .5cm
+\indent\small{\textbf{Indian Institute Of Technology, Bombay}}	\hfill	\small{\textit{(May'17 - Jul'17)}} \\
+\indent\small{\textbf{Software Developer, Intern}}
+\\[-0.5cm]
+\begin{itemize}
+\item \noindent \small{Designed and developed modules for Drupal 7 for integration with the National Virtual Library Of India project. }
+
+\end{itemize}
+
+\indent \small{\textbf{Indian Institute Of Technology, Bombay}}	\hfill	\small{\textit{(May'17 - Jul'17)}} \\
+\indent \small{\textbf{Content Writer, IIT BombayX}}
+\\[-0.5cm]
+\begin{itemize}
+\item \noindent \small{Contributed 9 articles for publishing on official website of IIT BombayX.}
+\end{itemize}
+
+\indent\small{\textbf{Indian Institute Of Technology, Varanasi}}	\hfill	\small{\textit{(Feb'17)}} \\
+\indent \small{\textbf{Android Development Workshop}}
+\\[-0.5cm]
+\begin{itemize}
+\item \noindent \small{A two-day workshop organized by i3indya to provide basic information regarding development of applications using Android.}
+\end{itemize}
+\vskip .5cm
+
+\indent \resheading{\textbf{PROJECTS}}\\[\lsep]
+\vskip .5cm
+\indent\small{\textbf{Music Player Application on Android Platform}}
+\begin{itemize}
+ \item The purpose of this basic application is to play all music format files along with implementation of advanced features like changing songs on shake, password protection, etc.
+ \item \textit{Technologies Used: } Android, Java.
+\end{itemize}
+
+\indent\small{\textbf{Event Logging \& Content Versioning System (\textit{IIT Bombay Internship Project})}}	
+\begin{itemize}
+ \item As a part of development team of Fundamental Research Group (IIT Bombay) mentored by Professor D.B. Phatak, we enhanced the functionality of Event Log module in Drupal 7, developed a new module for the visualization of event log data and also provided an interface for the development of recommendation system. Besides, we also tried to store the newly logged events on Cloud.
+ \item \textit{Technologies Used: } PHP, Drupal 7, D3, Python \& MySQL.
+ \item \textit{Pre-requisite Technologies: } Basics of HTML, CSS \& Javascript.
+ \item \textit{Project Report: } \href{https://github.com/fresearchgroup/drupal-logger/blob/master/ReportEventLoggingCVS(3).pdf}{Event Logging \& Content Versioning System}
+\end{itemize}
+\vskip .5cm
+
+\resheading{\textbf{COMPUTER SKILLS}}\\[\lsep]
+ \vskip .5cm
+\begin{itemize}
+ \item \textit{Programming Languages: } C/C++(Intermediate), PHP(Beginner) \& Java(Beginner).
+ \item \textit{Platforms: } Windows \& Linux.
+ \item \textit{Others: } Drupal 7(CMS), Shell Script, MySQL, Git \& Github.
+\end{itemize}
+\vskip .5cm
+
+\resheading{\textbf{ACHIEVEMENTS}}\\[\lsep]
+\\ 
+\begin{itemize}
+\item Recipient of Railways and MNNIT scholarship for excellence in academics.
+\item District CBSE Board topper in class $12^{th}$.
+ \item Cleared the written round of NDA Examination.
+ \item Won 3rd prize in state level GK Quiz competition held by BHARAT VIKAS PARISHAD in 2015
+ \item Won 4th prize in interschool GK Quiz competition held by Limca Book Of Records.
+ \item Elected as the Head Boy \& the President of the Interact Club (School Branch of Rotary Club).
+ \item Chosen as the Hostel Prefect in a Committee headed by Director, MNNIT Allahabad in 2016.
+\item Finalist of Inception in AVISHKAR 2015 \& 2016.
+\item Qualified for the Elimination round of SnackDown'17.
+\end{itemize}
+\vskip .5cm
+
+\resheading{\textbf{HOBBIES}}
+\vskip 0.5cm
+\begin{itemize}
+ \item Cooking and eating delicious food
+ \item Watching movies
+ \item Reading books
+\end{itemize}
+\end{document}
